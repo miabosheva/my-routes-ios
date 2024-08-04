@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0D4BA4302C5FDBD4004FD348 /* MyRoutesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BA42F2C5FDBD4004FD348 /* MyRoutesApp.swift */; };
-		0D4BA4322C5FDBD4004FD348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BA4312C5FDBD4004FD348 /* ContentView.swift */; };
 		0D4BA4342C5FDBD6004FD348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4BA4332C5FDBD6004FD348 /* Assets.xcassets */; };
 		0D4BA4372C5FDBD6004FD348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4BA4362C5FDBD6004FD348 /* Preview Assets.xcassets */; };
+		0D4BA43E2C5FDE1E004FD348 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BA43D2C5FDE1E004FD348 /* Home.swift */; };
+		0D4BA4402C5FDE3D004FD348 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4BA43F2C5FDE3D004FD348 /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D4BA42C2C5FDBD4004FD348 /* MyRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4BA42F2C5FDBD4004FD348 /* MyRoutesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutesApp.swift; sourceTree = "<group>"; };
-		0D4BA4312C5FDBD4004FD348 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D4BA4332C5FDBD6004FD348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4BA4362C5FDBD6004FD348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D4BA43D2C5FDE1E004FD348 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0D4BA43F2C5FDE3D004FD348 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				0D4BA42F2C5FDBD4004FD348 /* MyRoutesApp.swift */,
-				0D4BA4312C5FDBD4004FD348 /* ContentView.swift */,
+				0D4BA43D2C5FDE1E004FD348 /* Home.swift */,
+				0D4BA43F2C5FDE3D004FD348 /* HomeModel.swift */,
 				0D4BA4332C5FDBD6004FD348 /* Assets.xcassets */,
 				0D4BA4352C5FDBD6004FD348 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4BA4322C5FDBD4004FD348 /* ContentView.swift in Sources */,
+				0D4BA43E2C5FDE1E004FD348 /* Home.swift in Sources */,
 				0D4BA4302C5FDBD4004FD348 /* MyRoutesApp.swift in Sources */,
+				0D4BA4402C5FDE3D004FD348 /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
